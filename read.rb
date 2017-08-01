@@ -4,8 +4,6 @@
 # Версия 2.0, хранящая свои данные в базе данных SQLite
 # Этот скрипт занимается чтение данных из базы
 #
-# (с) goodprogrammer.ru
-#
 # Этот код необходим только при использовании русских букв на Windows
 if Gem.win_platform?
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
